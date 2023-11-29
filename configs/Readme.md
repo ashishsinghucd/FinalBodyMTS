@@ -1,0 +1,1 @@
+This folder stores the basic information about each exercise type.

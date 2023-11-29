@@ -1,0 +1,10 @@
+INPUT_DATA_PATH = TrainTestDataSktime
+BASE_PATH=Results/Datasets/HPE3
+EXERCISE = MP
+SEED_VALUES=103007,1899797,191099
+OUTPUT_PATH =  Results/Output/HPE3
+DATA_TYPE = default_type
+BINARY_CLASSIFICATION = False
+SEGMENT_STATS_FILE = Results/Datasets/HPE2/SegmentStats/MP/series_body25.csv
+GENDER_INFO=/home/ashish/PycharmProjects/human_pose_estimation/data_info/gender_info.csv
+SAVE_MODEL=False

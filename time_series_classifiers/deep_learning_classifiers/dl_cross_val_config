@@ -1,0 +1,13 @@
+INPUT_DATA_PATH = TrainTestData
+BASE_PATH=Results/Datasets/HPE
+EXERCISE = MP
+CLASSIFIER_TYPE = fcn
+EPOCHS = 600
+MULTICLASS_DIR = MulticlassSplit
+OUTPUT_PATH =  Results/Output
+ENGINE_PREFIX =  /home/ashish
+LOCAL_PREFIX = /Users/ashishsingh
+USE_ENGINE = False
+USE_SONIC = False
+SONIC_PREFIX = /home/people/19205522/scratch
+SEED_VALUES=1899797

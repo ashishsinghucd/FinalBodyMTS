@@ -1,0 +1,14 @@
+INPUT_DATA_PATH = TrainTestData
+BASE_PATH=Results/Datasets/HPE3
+EXTRACTED_FRAMES_PATH =ExtractedFrames/{}
+EXERCISE = MP
+SEED_VALUE = 191099
+COMBINATION = MulticlassSplit
+MODEL_NAME = fcn
+INDEX_SAMPLE = 9
+COUNT_DISPLAY = 1
+INTERPRET_CLASS_WEIGHTS = False
+PID_LIST = P30
+TOP_K = 10
+DATA_TYPE = default
+MODEL_PATH = Results/Output/dl_weights/{}/{}/MulticlassSplit/{}/best_model.hdf5
