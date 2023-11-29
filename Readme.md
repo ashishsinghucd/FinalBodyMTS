@@ -1,3 +1,5 @@
+## Pose Estimation and Time Series Classification Methods for Efficient Video-Based Exercise Classification
+
 This repository contains the code to generate train/test data, run the classification using the ROCKET or deep learning
 classifiers and generate CAM for visualization purpose.
 
