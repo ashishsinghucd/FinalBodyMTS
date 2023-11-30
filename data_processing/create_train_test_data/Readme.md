@@ -4,7 +4,7 @@ arguments.
 
 It supports the creating the final format for multivariate time series data in the numpy format to be used for deep
 learning methods, sktime format for ROCKET classifiers and table format (this one has not been used for a long time).
-
+It accepts the following arguments.
 ```
 STANDARDIZATION= to standarduze each time individual time series 
 SCALING_TYPE= type of standardization
@@ -22,9 +22,10 @@ TRAIN_TEST_DIR= output directory
 MULTICLASS_DIR=MulticlassSplit
 MIN_LENGTH_TIME_SERIES= minimum length of time series, time series below this length will be dropped
 NO_OF_CLASSES=2
-DATA_TYPE= type of data type for saving
+DATA_TYPE= type of data type for saving, handy to create wihout overwriting previous types
 REVERSE_CLIP= whether to reverse the time series or not
 MAX_LENGTH= Max length of time series for resampling to the same length
 GENDER_INFO= gender stats file
+MAX_LENGTH=default length for resampling
 DROP_PARTS= body parts to be dropped, can be used to generate train/test for a single body part
 ```

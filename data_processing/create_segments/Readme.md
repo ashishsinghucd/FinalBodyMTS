@@ -4,11 +4,7 @@ already in the configs directory after manually going through each signal and co
 case it is incorrect.
 
 The code accepts a file that contains the data for each PID where the columns look like this:
-```
-RShoulder_X	RShoulder_Y	RShoulder_prob	RElbow_X RElbow_Y RElbow_prob RWrist_X	RWrist_Y RWrist_prob
 ![img_1.png](img_1.png)
-```
-
 where X and Y are the coordinates and the prob is the confidence of the OpenPose for each body part. OpenPose at the 
 time of writing supported detecting 25 body parts.
 

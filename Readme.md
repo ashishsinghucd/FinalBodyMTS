@@ -16,3 +16,24 @@ classify the data.
 the final data from OpenPose output. 
 7. `data_info`: contains files which have demographic info, peaks info for MP and Rowing exercises.
 8. `vizualize_weights`: contains the code to interpret the model using the CAM.
+
+
+
+Please refer to these publications for more details:
+```
+Singh, A., Le, B.T., Nguyen, T.L., Whelan, D., O’Reilly, M., Caulfield, B. and Ifrim, G., 2021, February. 
+Interpretable classification of human exercise videos through pose estimation and multivariate time series analysis. 
+In International Workshop on Health Intelligence (pp. 181-199). Cham: Springer International Publishing.
+https://doi.org/10.1007/978-3-030-93080-6_14
+
+Singh, A., Bevilacqua, A., Nguyen, T.L., Hu, F., McGuinness, K., O’Reilly, M., Whelan, D., Caulfield, B. and Ifrim, 
+G., 2023. Fast and robust video-based exercise classification via body pose tracking and scalable multivariate 
+time series classifiers. Data Mining and Knowledge Discovery, 37(2), pp.873-912.
+https://doi.org/10.1007/s10618-022-00895-4
+
+Singh, A., Bevilacqua, A., Aderinola, T.B., Nguyen, T.L., Whelan, D., O’Reilly, M., Caulfield, B. and Ifrim, G., 2023, 
+September. An Examination of Wearable Sensors and Video Data Capture for Human Exercise Classification. 
+In Joint European Conference on Machine Learning and Knowledge Discovery in Databases (pp. 312-329). Cham: Springer 
+Nature Switzerland.
+https://doi.org/10.1007/978-3-031-43427-3_19
+```
